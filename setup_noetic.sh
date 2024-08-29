@@ -1,20 +1,20 @@
 # HOW TO USE:
 # After clean install of Ubuntu 20.04 Server on VMWare Fusion running on MacOSX,
 # cd && mkdir Git && cd Git
-# git clone https://github.com/hyeonbeenlee/AppleSilicon-ROS-SLAM.git
+# git clone https://github.com/sanglee/AppleSilicon-ROS-SLAM.git
 # cd AppleSilicon-ROS-SLAM && bash setup.sh
 # sudo reboot
 # Then, connect to Remote Desktop to {VM's internal IP}:3389
 # {VM's internal IP} can be checked by running 'ifconfig'
 
 # Authorize
-# Modify "hyeonbeen" to your username
-# Modify "hyeonbeen" to your username
-sudo usermod -aG sudo hyeonbeen
-sudo -- sh -c "echo "hyeonbeen" | sudo -S chmod 777 /home"
+# Modify "sang" to your username
+# Modify "sang" to your username
+sudo usermod -aG sudo sang
+sudo -- sh -c "echo "sang" | sudo -S chmod 777 /home"
 sudo -- sh -c "echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers"
-# Modify "hyeonbeen" to your username
-# Modify "hyeonbeen" to your username
+# Modify "sang" to your username
+# Modify "sang" to your username
 
 
 # Install apps
